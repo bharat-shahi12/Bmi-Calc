@@ -1,16 +1,38 @@
-# React + Vite
+# BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive BMI (Body Mass Index) Calculator built using React, HTML, CSS, and JavaScript.
 
-Currently, two official plugins are available:
+This project allows users to enter their weight and height and calculates their BMI along with a corresponding health category.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Calculate BMI based on weight and height
+- Display BMI result
+- Show health category based on BMI
+- Simple and user-friendly interface
+- Responsive design
+- Built using React Hooks
+- Input validation for empty or invalid values
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML
+- CSS
+- React Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Concepts Used
+
+### useState
+
+The `useState` Hook is used to store and manage:
+
+- Weight
+- Height
+- BMI result
+- BMI message
+
+Example:
+
+```javascript
